@@ -1,5 +1,15 @@
+#!/usr/bin/env python
+"""
+breadsticks
+~~~~~~~~~~~
+
+Install breadsticks into your python.
+
+.. note:: They are delicious.
+"""
 from __future__ import print_function
 import sys
+
 
 for arg in sys.argv:
     if arg in ('sdist', 'dist', 'build', 'register', 'upload'):
@@ -11,6 +21,8 @@ for arg in sys.argv:
             author_email='matt@ydekproductions.com',
             url='https://github.com/mattrobenolt/breadsticks',
             license='BSD',
+            description='Install breadsticks into your python.',
+            long_description=__doc__,
             classifiers=[
                 'Development Status :: 5 - Production/Stable',
                 'Intended Audience :: Developers',
