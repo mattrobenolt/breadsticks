@@ -6,7 +6,7 @@ for arg in sys.argv:
         from setuptools import setup
         setup(
             name='breadsticks',
-            version='0.0.0',
+            version='1.0.0',
             author='Matt Robenolt',
             author_email='matt@ydekproductions.com',
             url='https://github.com/mattrobenolt/breadsticks',
